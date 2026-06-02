@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
+	import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
 </script>
 
 <template>
-	<div class="">
+	<div class="dark">
 		<fwb-navbar>
 			<template #default="{ isShowMenu }">
 				<fwb-navbar-collapse :is-show-menu="isShowMenu">
