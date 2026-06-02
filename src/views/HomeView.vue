@@ -1,13 +1,9 @@
 <script lang="ts" setup>
-	import { ref } from "vue";
-
-	const count = ref(0);
+	import { FwbCard } from "flowbite-vue";
 </script>
 
 <template>
-	<h1>Home</h1>
-	<p>Count: {{ count }}</p>
-	<button @click="count++">Increase Count</button>
+	<fwb-card><h2 class="text-4xl font-bold">Overview</h2></fwb-card>
 </template>
 
 <style scoped></style>
