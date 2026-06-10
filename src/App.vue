@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-	import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
+	import { FwbA, FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
 </script>
 
 <template>
@@ -8,13 +8,13 @@
 			<template #default="{ isShowMenu }">
 				<fwb-navbar-collapse :is-show-menu="isShowMenu">
 					<fwb-navbar-link>
-						<RouterLink to="/">Home</RouterLink>
+						<RouterLink to="/"><fwb-a>Home</fwb-a></RouterLink>
 					</fwb-navbar-link>
 					<fwb-navbar-link>
-						<RouterLink to="/servers">Servers</RouterLink>
+						<RouterLink to="/servers"><fwb-a>Servers</fwb-a></RouterLink>
 					</fwb-navbar-link>
 					<fwb-navbar-link>
-						<RouterLink to="/about">About</RouterLink>
+						<RouterLink to="/about"><fwb-a>About</fwb-a></RouterLink>
 					</fwb-navbar-link>
 				</fwb-navbar-collapse>
 			</template>
