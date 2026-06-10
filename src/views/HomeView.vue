@@ -18,6 +18,7 @@
 					:max="8"
 					:min="0"
 					:value="7"
+					center-text="CPU"
 				/>
 			</div>
 			<div>
